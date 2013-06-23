@@ -16,7 +16,7 @@ namespace RedisDAL
     public class AutoComplete
     {
 
-        private static string apiUrl = "http://10.0.0.100/api/en-US/ui/autocomplete/json?";
+        private static string apiUrl = "";
         private static string RedisHost = "server";
         private static int RedisPort = 6379;
         private static string userId = "15234206";
