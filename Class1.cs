@@ -124,7 +124,6 @@ namespace RedisDAL
             request.ContentLength = 0;
             request.Method = "GET";
             //request.ContentType = "application/x-www-form-urlencoded";
-            request.Headers.Add("SNAPAuthorization", "Basic MTIzNDU2OTUzMA==Xw==imPF56ChwCf0nK+7J/U27Q==");
 
             //byte[] byteArray = null;
             Stream dataStream = null;
